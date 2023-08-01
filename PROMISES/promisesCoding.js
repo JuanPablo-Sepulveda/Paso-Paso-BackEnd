@@ -1,0 +1,7 @@
+// en los siguientes archivos podemos ver el tema de promises, cabe aclarar que esta es una introduccion donde nos explicarion las distintas maneras de trabajar.
+
+// Podemos ver la principal diferencia entre trabajar con axios y fetch y como las promesas reaccionan de manera diferente a estos metodos. por ejemplo con el metodo axios debemos asignar una promesa con un succes handler(se ejecuta correctamente el proceso) y aparte un error handler(se ejecuta de manera erronea el proceso). introduciendo estas mecanicas mediante los thens()
+
+// Por otro lado el metodo fetch a mi parecer es mas comodo. para empezar creamos una promesa con un succes handler [.then()]que va a recibir una respuesta donde se va especificar si el pending de la promesa fue alterado para ejecutar o el succes handler o el error handler. Con la particularidad que el metodo fetch nos permite crear mas de un .then() haciendo que cada una de estas sean promesas independientes que van a sera alteradas por la promesa inicicial creando un proceso llamado promesas anidadas donde cada promesa tiene diferentes respuestas dependiendo el cumplimiento o no de la promesa  principal 
+
+// ---DISCULPA--- al final de visualizar un tema trato de explicarlo como si lo estuviera enseñarlo mas que nada por una cuestion personal en la que creo que me sirve para aprender mejor. ESTA PARTE PUEDE OMITIRSE YENDO A LA CARPETA DEMO-PROMISE DONDE ESTA LA PARTE PRACTICA DE TODO ESTA TEORIA.
